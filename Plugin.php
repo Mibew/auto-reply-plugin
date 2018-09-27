@@ -123,6 +123,9 @@ class Plugin extends \Mibew\Plugin\AbstractPlugin implements \Mibew\Plugin\Plugi
      */
     public static function install()
     {
+        // Initialize localization constant
+        getlocal('All our operators are currently busy, please hold. Sorry for keeping you waiting.');
+
         return Database::getInstance()->query(
             'CREATE TABLE {mibew_autoreply} ( '
                 . 'threadid INT NOT NULL PRIMARY KEY'

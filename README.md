@@ -37,7 +37,7 @@ The plugin can be configured with values in "`<Mibew root>`/configs/config.yml" 
 
 Type: `Integer`
 
-Default: `60`
+Default: `300`
 
 Specify time in seconds to wait before automatically reply.
 
